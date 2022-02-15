@@ -1,9 +1,8 @@
 .logo {
   display: inline-block;
   font-family: "Pacifico", cursive;
-  position: fixed;
   font-weight: bold;
-  top: 2rem;
+  margin-top: 32px;
   z-index: 3;
 }
 .logo-link {

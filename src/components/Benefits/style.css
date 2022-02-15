@@ -1,0 +1,13 @@
+.card {
+  width: 30%;
+}
+.card-head {
+  margin: 8px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.card-body {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(87, 87, 87);
+}

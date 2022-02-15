@@ -1,0 +1,14 @@
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+.flex-container {
+  margin: 100px 70px 100px 0;
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
