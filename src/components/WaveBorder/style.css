@@ -1,0 +1,16 @@
+svg {
+  display: inline-block;
+  position: absolute;
+  /* top: 80; */
+  /* left: 0; */
+  bottom: 0;
+}
+.svg-container {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  background-color: aliceblue;
+  z-index: 3;
+}
