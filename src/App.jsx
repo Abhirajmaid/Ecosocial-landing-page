@@ -10,6 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Land />} />
+          {/* <Route exact path="/Terms" element={<Land />} /> */}
         </Routes>
       </Router>
     </>

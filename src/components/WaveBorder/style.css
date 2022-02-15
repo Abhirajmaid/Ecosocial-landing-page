@@ -1,8 +1,9 @@
 .svg-container {
-  background-color: white;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   width: 100%;
   overflow-x: hidden;
   z-index: -1;
+  margin-top: -1px;
 }

@@ -1,0 +1,20 @@
+.heroIllustration {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  margin-right: 120px;
+  animation: handMove 4s ease infinite;
+}
+
+@keyframes handMove {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}

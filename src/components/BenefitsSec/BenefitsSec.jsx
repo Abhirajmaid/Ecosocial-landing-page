@@ -5,13 +5,11 @@ import "./style.css";
 export const BenefitsSec = () => {
   return (
     <>
-      <div className="section">
-        <div className="benefits-container">
-          <div className="flex-container">
-            <Benefits />
-            <Benefits />
-            <Benefits />
-          </div>
+      <div className="benefits-container">
+        <div className="flex-container">
+          <Benefits />
+          <Benefits />
+          <Benefits />
         </div>
       </div>
     </>

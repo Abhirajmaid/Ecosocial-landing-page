@@ -7,7 +7,7 @@ export const Logo = (prop) => {
     <>
       <h1 className="logo">
         <NavLink className="logo-link" style={{ color: prop.color }} to="/">
-          AB
+          EcoSocial
         </NavLink>
       </h1>
     </>
