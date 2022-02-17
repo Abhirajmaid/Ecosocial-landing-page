@@ -10,16 +10,17 @@ const AccordionSection = styled.div`
   flex-direction: column;
   align-items: center;
   width: 1400px;
-  height: 800px;
-  max-height: 100vh;
+  height: 500px;
   margin: 0 auto;
+  padding-top: 50px;
   background-color: #fffffa;
 `;
 
 const Container = styled.div`
-  margin-right: 70px;
-  overflow: hidden;
+  overflow-x: hidden;
+  height: 300px;
   width: 720px;
+  margin-bottom: -40px;
 `;
 
 const Wrap = styled.div`
@@ -45,8 +46,8 @@ const Wrap = styled.div`
 const Dropdown = styled.div`
   background: #fffffa;
   color: black;
-  width: 600px;
-  height: 100%;
+  width: 700px;
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -58,7 +59,8 @@ const Dropdown = styled.div`
   }
 `;
 const Head = styled.h2`
-  margin: -150px 70px 40px 0;
+  margin: -150px 0 40px 0;
+  color: rgb(0, 65, 0);
 `;
 
 const Accordion = () => {
@@ -81,12 +83,12 @@ const Accordion = () => {
           {FaqsData.map((item, index) => {
             return (
               <>
-                <Wrap onClick={() => toggle(index)} key={index}>
+                <Wrap onClick={() => toggle(index)} key={item.id}>
                   <h1>{item.question}</h1>
                   <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
                 </Wrap>
                 {clicked === index ? (
-                  <Dropdown>
+                  <Dropdown key={item.id}>
                     <p>{item.answer}</p>
                   </Dropdown>
                 ) : null}

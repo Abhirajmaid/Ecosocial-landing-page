@@ -8,7 +8,7 @@
   border: none;
 }
 .flex-container {
-  margin: 100px 70px 100px 0;
+  margin: 100px 0 100px 0;
   display: flex;
   width: 1000px;
   justify-content: space-between;

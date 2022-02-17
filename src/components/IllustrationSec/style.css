@@ -3,7 +3,6 @@
   z-index: 3;
   display: flex;
   justify-content: center;
-  margin-right: 120px;
   animation: handMove 4s ease infinite;
 }
 

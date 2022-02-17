@@ -12,7 +12,7 @@ export const IllustrationSec = () => {
           <div className="heroIllustration">
             <Illustration url={URL} h="400px" w="500px" />
           </div>
-          <div>
+          <div style={{ marginTop: "-2px" }}>
             <WaveBorder />
           </div>
         </>

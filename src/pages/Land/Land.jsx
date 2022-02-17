@@ -1,15 +1,14 @@
 import React from "react";
 import { Logo } from "../../components/Logo/Logo";
-// import { WaveBorder } from "../../components/WaveBorder/WaveBorder";
 import { Title } from "../../components/Title/Title";
 import { CallToAction } from "../../components/CallToAction/CallToAction";
-// import { Illustration } from "../../components/Illustrations/Illustration";
 import { IllustrationSec } from "../../components/IllustrationSec/IllustrationSec";
 import { OurMotive } from "../../components/OurMotive/OurMotive";
 import { BenefitsSec } from "../../components/BenefitsSec/BenefitsSec";
 import { Partners } from "../../components/Partners/Partners";
 import Accordion from "../../components/Accordian/Accordian";
 import { Footer } from "../../components/Footer/Footer";
+import { Navbar } from "../../components/Navbar/Navbar";
 import "./style.css";
 
 export const Land = () => {
@@ -19,6 +18,7 @@ export const Land = () => {
     <>
       <div className="container">
         <div className="land-container">
+          <Navbar />
           <Logo color="white" />
           <Title />
           <CallToAction />

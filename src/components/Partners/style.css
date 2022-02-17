@@ -1,14 +1,25 @@
 .partners-container {
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   width: 1400px;
   height: 100%;
-  margin: -1px auto;
+  margin: 0 auto;
+  padding-bottom: -20px;
   background-color: white;
+  border-top: 1px solid rgb(163, 163, 163);
+  border-bottom: 1px solid rgb(163, 163, 163);
 }
 .partner-logo {
   width: 50px;
   height: 50px;
   text-decoration: none;
   color: rgb(44, 44, 44);
+}
+.p-title > h3 {
+  position: absolute;
+  padding-top: 30px;
+  color: rgb(0, 65, 0);
+  font-size: 24px;
+  font-weight: bold;
 }

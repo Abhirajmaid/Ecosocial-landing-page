@@ -6,12 +6,6 @@
 .form > input {
   width: 250px;
   padding: 16px;
-  /* border-radius: 3px;
-  margin-bottom: 20px;
-  border: 1px solid lightgray;
-  background: #fff;
-  font-size: 16px;
-  color: rgb(0, 0, 32); */
   border: none;
   outline: none;
   font-weight: normal;
@@ -32,10 +26,13 @@
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
+.join-btn:hover {
+  transform: scale(1.1);
+}
 .CTA-text {
   margin: 35px auto 50px auto;
   text-align: center;
   width: 60%;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
 }

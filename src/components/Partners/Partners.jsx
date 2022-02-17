@@ -12,10 +12,11 @@ export const Partners = () => {
   });
   return (
     <>
-      <div className="partners-container">
+      <div className="partners-container p-title">
+        <h3>OUR PARTNERS</h3>
         <div
-          className="flex-container "
-          style={{ marginTop: "50px", marginRight: "80px" }}
+          className="flex-container"
+          style={{ marginTop: "100px", marginBottom: "60px" }}
         >
           {PartnerLogo}
         </div>

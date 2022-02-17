@@ -3,8 +3,13 @@
   justify-content: center;
   width: 1400px;
   height: 100%;
-  margin: 0 auto;
+  margin: -2px auto;
   background-color: white;
+}
+.motive-tag {
+  color: rgb(0, 65, 0);
+  font-size: 24px;
+  font-weight: bold;
 }
 .card-right {
   display: flex;
@@ -15,6 +20,7 @@
   display: flex;
   justify-content: center;
   width: 50%;
+  margin-left: 100px;
 }
 .radius {
   overflow: hidden;
@@ -24,8 +30,7 @@
   margin-top: 50px;
 }
 .head {
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 26px;
   margin-top: 10px;
 }
 .body,
