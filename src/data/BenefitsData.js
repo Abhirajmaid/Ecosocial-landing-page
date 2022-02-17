@@ -1,23 +1,22 @@
 export const BenefitsData = [
   {
     id: "1",
-    icon: "akar-icons:money",
-    headText: "we are the best",
+    icon: "bi:tree",
+    headText: "Help to Save enviroment",
     bodyText:
       "Lorem ipsum door sit amet consectetur, adipisicing elit. Aspernatur abet culpa doloribus hic, consequuntur expedita quo deleniti labore",
   },
   {
     id: "2",
     icon: "akar-icons:money",
-    headText: "we are the best",
+    headText: "Build your Precense",
     bodyText:
       "Lorem ipsum door sit amet consectetur, adipisicing elit. Aspernatur abet culpa doloribus hic, consequuntur expedita quo deleniti labore",
   },
   {
     id: "3",
-    icon: "akar-icons:money",
-    headText: "we are the best",
-    bodyText:
-      "Lorem ipsum door sit amet consectetur, adipisicing elit. Aspernatur abet culpa doloribus hic, consequuntur expedita quo deleniti labore",
+    icon: "akar-icons:people-multiple",
+    headText: "Connect with people",
+    bodyText: "EcoSocial is community of ",
   },
 ];

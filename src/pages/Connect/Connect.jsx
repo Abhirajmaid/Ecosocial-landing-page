@@ -1,43 +1,57 @@
-// import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import "./style.css";
 import { NavLink } from "react-router-dom";
-// import { db } from "../../Firebase";
+import { db } from "../../Firebase";
 
 export const Connect = () => {
-  //   const [name, setName] = useState("");
-  //   const [email, setEmail] = useState("");
-  //   const [message, setMessage] = useState("");
+  // const [formValues, setFormValues] = useState({
+  //   username: "",
+  //   email: "",
+  //   msg: "",
+  // });
+  const [userName, setUserName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
+  const [loader, setLoader] = useState(false);
+  const [error, setError] = useState("");
 
-  //   const [loader, setLoader] = useState(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (userName !== "" && email !== "" && regex.test(email) !== false) {
+      setLoader(true);
 
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     setLoader(true);
+      db.collection("connection")
+        .add({
+          name: userName,
+          email: email,
+          message: msg,
+        })
+        .then(() => {
+          setLoader(false);
+          alert("Thanks For Your Support😊. It means a lot!💖");
+        })
+        .catch((error) => {
+          alert(error.message);
+          setLoader(false);
+        });
 
-  //     db.collection("contacts")
-  //       .add({
-  //         name: name,
-  //         email: email,
-  //         message: message,
-  //       })
-  //       .then(() => {
-  //         setLoader(false);
-  //         alert("Your message has been submitted👍");
-  //       })
-  //       .catch((error) => {
-  //         alert(error.message);
-  //         setLoader(false);
-  //       });
+      setUserName("");
+      setEmail("");
+      setMsg("");
+      setError("congratulations");
+    } else if (userName === "" || email === "") {
+      console.log("Seriously, You don't know anythig ? 😂😂");
+      setError("Above fields are blank. 😶");
+    } else if (regex.test(email) === false) {
+      setError("Please enter correct Email!");
+    }
+  };
 
-  //     setName("");
-  //     setEmail("");
-  //     setMessage("");
-  //   };
   const style = {
     color: "White",
     marginBottom: "30px",
-    // margintop: "-20px",
   };
 
   return (
@@ -47,17 +61,40 @@ export const Connect = () => {
           <FaTimes style={style} />
         </NavLink>
         <div className="connect-container">
-          <form className="connect-form">
+          <form className="connect-form" onSubmit={handleSubmit}>
             <h1>Connect With Us</h1>
-            <input className="input" placeholder="Name" />
+            <input
+              type="text"
+              className="input"
+              placeholder="Name"
+              value={userName}
+              onChange={(e) => setUserName(e.target.value)}
+            />
 
-            <input className="input" placeholder="Email" />
+            <input
+              type="text"
+              className="input"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
 
-            <textarea className="textarea" placeholder="Message"></textarea>
+            <textarea
+              type="text"
+              className="textarea"
+              placeholder="Message"
+              value={msg}
+              onChange={(e) => setMsg(e.target.value)}
+            ></textarea>
 
-            <button className="connect-btn" type="submit">
+            <button
+              className="connect-btn"
+              type="submit"
+              style={{ background: loader ? "#ccc" : "#ffcc1d" }}
+            >
               Submit
             </button>
+            <p className="error">{error}</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
               rerum? Id atque reiciendis facilis esse, itaque velit. Animi,

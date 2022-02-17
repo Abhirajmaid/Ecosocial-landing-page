@@ -1,7 +1,7 @@
 import React from "react";
 
 export const MotiveHead = () => {
-  return <h2>To connect People</h2>;
+  return <h2>To connect everyone Build enviroment</h2>;
 };
 export const MotiveBody = () => {
   return (

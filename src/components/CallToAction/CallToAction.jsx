@@ -34,6 +34,7 @@ export const CallToAction = () => {
     // }
   };
   const click = (e) => {
+    e.preventDefault();
     if (email !== "" && regex.test(email) !== false) {
       e.preventDefault();
       setLoader(true);
@@ -79,8 +80,9 @@ export const CallToAction = () => {
         {error}
       </p>
       <p className="CTA-text">
-        *Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-        placeat labore, delectus debitis dolorem deleniti explicabo
+        *We are building a community which to make a change in society. If you
+        want to stay updated with whats going on, and want be a part of this
+        revolution. SUBSCRIBE RIGHT NOW!
       </p>
     </>
   );
