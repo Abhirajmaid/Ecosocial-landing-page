@@ -1,7 +1,7 @@
 export const Partner = [
   {
     id: 1,
-    imgSrc: "akar-icons:money",
+    imgSrc: "akar-icons:linkedin-v1-fill",
     link: "/",
   },
   {
@@ -11,33 +11,22 @@ export const Partner = [
   },
   {
     id: 3,
-    imgSrc: "bi:meta",
+    imgSrc: "cib:instagram",
     link: "/",
   },
   {
     id: 4,
-    imgSrc: "bi:meta",
+    imgSrc: "simple-icons:mercedes",
     link: "/",
   },
   {
     id: 5,
-    imgSrc: "bi:meta",
+    imgSrc: "akar-icons:whatsapp-fill",
     link: "/",
   },
   {
     id: 6,
     imgSrc: "bi:meta",
-    link: "/",
-  },
-  {
-    id: 7,
-    imgSrc: "bi:meta",
-    link: "/",
-  },
-
-  {
-    id: 7,
-    imgSrc: "https://redux.js.org/img/redux-logo-landscape.png",
     link: "/",
   },
 ];
