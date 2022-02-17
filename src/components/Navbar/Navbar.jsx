@@ -21,7 +21,12 @@ export const Navbar = () => {
   return (
     <div className={show ? "header header-opacity" : "header"}>
       <nav className="navbar">
-        <CTABtn bgcolor="#FFCC1D" color="black" />
+        <CTABtn
+          bgcolor="#FFCC1D"
+          color="black"
+          text="Connect us"
+          link="/Connect"
+        />
         {/* <div className="hamburger" onClick={handleClick}>
           {click ? (
             window.removeEventListener("scroll", changeShow)

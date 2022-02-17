@@ -9,7 +9,7 @@ const AccordionSection = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 1400px;
+  width: 1420px;
   height: 500px;
   margin: 0 auto;
   padding-top: 50px;
@@ -60,6 +60,7 @@ const Dropdown = styled.div`
 `;
 const Head = styled.h2`
   margin: -150px 0 40px 0;
+  font-size: 26px;
   color: rgb(0, 65, 0);
 `;
 

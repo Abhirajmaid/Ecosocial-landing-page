@@ -1,0 +1,98 @@
+.big-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1d201d;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.connect-container {
+  width: 40vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 7px;
+  padding: 20px;
+}
+.connect-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+.input,
+.textarea,
+.connect-btn {
+  padding: 10px;
+  margin: 10px 0;
+}
+.input {
+  color: black;
+}
+.input,
+.textarea {
+  background-color: white;
+  color: black;
+  width: 85%;
+  border: none;
+  border-bottom: 1px solid rgb(77, 77, 77);
+  outline: none;
+}
+.input:focus,
+.textarea:focus {
+  border: 1px solid rgb(51, 51, 51);
+}
+.textarea {
+  resize: none;
+  min-height: 100px;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: rgb(41, 41, 41);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  color: rgb(41, 41, 41);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.input,
+.textarea::placeholder {
+  color: #000000;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.textarea::placeholder {
+  color: #757575;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.connect-btn {
+  width: 35%;
+  margin-top: 20px;
+  background-color: #ffcc1d;
+  color: rgb(48, 48, 48);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+}
+.connect-form > h1 {
+  font-size: 35px;
+  margin-top: -8px;
+  color: black;
+  font-weight: 700;
+}
+.connect-form > p {
+  width: 85%;
+}
+.connect-btn:hover {
+  transform: scale(1.05);
+}

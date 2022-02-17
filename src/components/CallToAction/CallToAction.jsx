@@ -66,7 +66,7 @@ export const CallToAction = () => {
           style={{ background: loader ? "#ccc" : "#ffcc1d" }}
           className="join-btn"
         >
-          Join Us
+          SUBSCRIBE
         </button>
       </form>
       <p
