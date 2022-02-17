@@ -21,6 +21,7 @@ export const Navbar = () => {
   return (
     <div className={show ? "header header-opacity" : "header"}>
       <nav className="navbar">
+        <h1>👉</h1>
         <CTABtn
           bgcolor="#FFCC1D"
           color="black"

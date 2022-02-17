@@ -9,7 +9,7 @@ const CtaBtn = styled.button`
   font-weight: 700;
   font-size: 20px;
   border-radius: 6px;
-  color: white;
+  color: black;
   text-decoration: none;
   cursor: pointer;
   transition: 0.2s ease-in-out;
@@ -17,14 +17,9 @@ const CtaBtn = styled.button`
 export const CTABtn = (prop) => {
   return (
     <>
-      <CtaBtn>
-        <NavLink
-          to={prop.link}
-          style={{ textDecoration: "none", color: `${prop.color}` }}
-        >
-          {prop.text}
-        </NavLink>
-      </CtaBtn>
+      <NavLink to={prop.link} style={{ textDecoration: "none" }}>
+        <CtaBtn>{prop.text}</CtaBtn>
+      </NavLink>
     </>
   );
 };
