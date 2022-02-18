@@ -4,13 +4,13 @@ import firebase from "firebase";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyDPjLhO8d0eE3Qb3VtdTAqpgKDmuGSNNXk",
-  authDomain: "ecosocial-landing-e12d5.firebaseapp.com",
-  projectId: "ecosocial-landing-e12d5",
-  storageBucket: "ecosocial-landing-e12d5.appspot.com",
-  messagingSenderId: "683456922624",
-  appId: "1:683456922624:web:2ca588a9212ae536d6c4e5",
-  measurementId: "G-R5R7M66HQ7",
+  apiKey: "AIzaSyChAN4-GXVhjTlg02JBqazrbPO6xJPcCA8",
+  authDomain: "ecosocial-landing-5aa7d.firebaseapp.com",
+  projectId: "ecosocial-landing-5aa7d",
+  storageBucket: "ecosocial-landing-5aa7d.appspot.com",
+  messagingSenderId: "1006235948212",
+  appId: "1:1006235948212:web:09cfc186dbf91011e8f3e1",
+  measurementId: "G-LLB0RMT3WE",
 });
 
 // Initialize Firebase
