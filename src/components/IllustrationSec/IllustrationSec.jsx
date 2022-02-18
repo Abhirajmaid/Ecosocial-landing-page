@@ -10,7 +10,7 @@ export const IllustrationSec = () => {
       <div className="partners-container ill-container">
         <>
           <div className="heroIllustration">
-            <Illustration url={URL} h="400px" w="500px" />
+            <Illustration url={URL} />
           </div>
           <div style={{ marginTop: "-2px" }}>
             <WaveBorder />

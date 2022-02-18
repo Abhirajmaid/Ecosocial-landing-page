@@ -11,15 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: clamp(85%, 20% + 10vw, 60%);
   height: 100%;
   margin: 0 auto;
 }
-/* .heroIllustration {
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */

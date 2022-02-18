@@ -9,6 +9,7 @@ import { Partners } from "../../components/Partners/Partners";
 import Accordion from "../../components/Accordian/Accordian";
 import { Footer } from "../../components/Footer/Footer";
 import { Navbar } from "../../components/Navbar/Navbar";
+import { BottomCTA } from "../../components/BottomCTA/BottomCTA";
 import "./style.css";
 
 export const Land = () => {
@@ -22,19 +23,14 @@ export const Land = () => {
           <Logo color="white" />
           <Title />
           <CallToAction />
+          <IllustrationSec />
+          <OurMotive />
+          <BenefitsSec />
+          <Partners />
+          <BottomCTA />
+          <Accordion />
+          <Footer />
         </div>
-        {/* <div className="heroIllustration">
-          <Illustration url={URL} h="400px" w="500px" />
-        </div>
-        <div>
-          <WaveBorder />
-        </div> */}
-        <IllustrationSec />
-        <OurMotive />
-        <BenefitsSec />
-        <Partners />
-        <Accordion />
-        <Footer />
       </div>
     </>
   );

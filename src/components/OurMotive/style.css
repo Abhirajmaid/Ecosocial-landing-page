@@ -3,8 +3,10 @@
   justify-content: center;
   width: 1420px;
   height: 100%;
-  margin: -2px auto;
+  /* margin: -2px auto; */
+  margin: -2px 0;
   background-color: white;
+  gap: 50px;
 }
 .motive-tag {
   color: rgb(0, 65, 0);
@@ -14,26 +16,50 @@
 .card-right {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
 }
 .card-left {
   display: flex;
-  justify-content: center;
-  width: 50%;
-  margin-left: 100px;
+  justify-content: right;
+  width: 40%;
 }
 .radius {
   overflow: hidden;
   border-radius: 20px;
+  height: clamp(200px, 150px + 10vw, 400px);
+  width: clamp(250px, 250px + 12vw, 550px);
 }
 .body {
   margin-top: 50px;
+  font-size: clamp(12px, 5px + 2vw, 18px);
 }
 .head {
-  font-size: 26px;
+  font-size: clamp(15px, 5px + 2vw, 26px);
   margin-top: 10px;
 }
 .body,
 .head {
-  width: 60%;
+  width: clamp(75%, 50% + 15vw, 90%);
+}
+
+@media screen and (max-width: 700px) {
+  .card-left {
+    width: 100%;
+    margin-left: 0;
+    /* margin-top: 50px; */
+    justify-content: center;
+  }
+  .card-right {
+    margin: 0 auto;
+    /* align-items: center; */
+    padding-left: 110px;
+    width: 30%;
+  }
+  .motive-container {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .body {
+    margin-top: 20px;
+  }
 }

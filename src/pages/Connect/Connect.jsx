@@ -92,13 +92,12 @@ export const Connect = () => {
               type="submit"
               style={{ background: loader ? "#ccc" : "#ffcc1d" }}
             >
-              Submit
+              Connect
             </button>
             <p className="error">{error}</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-              rerum? Id atque reiciendis facilis esse, itaque velit. Animi,
-              nulla? Ipsa.
+              rerum? Id atque reiciendis facilis esse,
             </p>
           </form>
         </div>

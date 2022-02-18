@@ -13,6 +13,9 @@ const CtaBtn = styled.button`
   text-decoration: none;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  @media (max-width: 550px) {
+    padding: 7px 30px;
+  }
 `;
 export const CTABtn = (prop) => {
   return (

@@ -19,13 +19,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  max-height: 70vh;
 }
 .input,
 .textarea,
 .connect-btn {
+  height: 40px;
+  padding-top: 6px;
+}
+.connect-btn {
   padding: 10px;
-  margin: 10px 0;
 }
 .input {
   color: black;
@@ -92,6 +95,7 @@
 }
 .connect-form > p {
   width: 85%;
+  font-size: 14px;
 }
 .connect-btn:hover {
   transform: scale(1.05);
@@ -100,4 +104,19 @@
   color: red;
   margin: 8px 0;
   font-size: 13px;
+}
+@media screen and (max-width: 770px) {
+  .connect-container {
+    width: 60vw;
+  }
+  .connect-form > p {
+    font-size: 12px;
+  }
+  .connect-btn {
+    padding: 10px 0;
+    font-size: 13px;
+  }
+  .connect-form > h1 {
+    font-size: 20px;
+  }
 }

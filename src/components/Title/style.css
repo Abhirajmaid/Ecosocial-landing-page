@@ -1,5 +1,5 @@
 .title {
-  font-size: 60px;
+  font-size: clamp(30px, 10px + 10vw, 70px);
   font-weight: 700;
   color: white;
   margin-top: 40px;
@@ -9,7 +9,7 @@
 }
 .sub-title {
   text-align: center;
-  font-size: 30px;
+  font-size: clamp(10px, 7px + 3vw, 25px);
   font-weight: 400;
   color: white;
   margin-top: 24px;

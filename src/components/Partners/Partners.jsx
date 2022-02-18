@@ -14,12 +14,7 @@ export const Partners = () => {
     <>
       <div className="partners-container p-title">
         <h3>OUR PARTNERS</h3>
-        <div
-          className="flex-container"
-          style={{ marginTop: "100px", marginBottom: "60px" }}
-        >
-          {PartnerLogo}
-        </div>
+        <div className="partner-section">{PartnerLogo}</div>
       </div>
     </>
   );

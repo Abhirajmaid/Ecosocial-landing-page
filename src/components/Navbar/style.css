@@ -39,3 +39,12 @@
     transform: translatex(-10px);
   }
 }
+
+@media screen and (max-width: 550px) {
+  .header .navbar {
+    justify-content: center;
+  }
+  .header {
+    height: 55px;
+  }
+}

@@ -4,15 +4,15 @@
   justify-content: center;
   width: 1420px;
   height: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding-bottom: -20px;
   background-color: white;
   border-top: 1px solid rgb(163, 163, 163);
   border-bottom: 1px solid rgb(163, 163, 163);
 }
 .partner-logo {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   text-decoration: none;
   color: rgb(44, 44, 44);
 }
@@ -22,4 +22,21 @@
   color: rgb(0, 65, 0);
   font-size: 26px;
   font-weight: bold;
+}
+.partner-section {
+  padding: 80px 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85vw;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 650px) {
+  .partner-logo {
+    width: 35px;
+    height: 35px;
+  }
 }

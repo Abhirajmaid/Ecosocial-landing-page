@@ -11,3 +11,9 @@
   font-size: 16px;
   color: rgb(87, 87, 87);
 }
+
+@media screen and (max-width: 720px) {
+  .card {
+    width: 93%;
+  }
+}

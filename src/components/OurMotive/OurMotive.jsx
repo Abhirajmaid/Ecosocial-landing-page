@@ -16,7 +16,9 @@ export const OurMotive = () => {
           </div>
         </div>
         <div className="card-right">
-          <h3 className="motive-tag">OUR GOALS & MOTIVES</h3>
+          <div>
+            <h3 className="motive-tag">OUR GOALS & MOTIVES</h3>
+          </div>
           <div className="head">
             <MotiveHead />
           </div>
