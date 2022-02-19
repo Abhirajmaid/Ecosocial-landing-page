@@ -7,8 +7,8 @@ export const BottomCTA = () => {
     <>
       <div className="bottom-container">
         <h1>
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam,
-          rem!"
+          "With Powerful community and with more powerful solution. building a
+          community of people who wants the change"
         </h1>
         <CTABtn link="/Connect" text="Join Us" />
       </div>

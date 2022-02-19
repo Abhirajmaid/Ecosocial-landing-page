@@ -26,7 +26,7 @@ export const Land = () => {
           <IllustrationSec />
           <OurMotive />
           <BenefitsSec />
-          <Partners />
+          {/* <Partners /> */}
           <BottomCTA />
           <Accordion />
           <Footer />

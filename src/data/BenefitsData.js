@@ -4,19 +4,20 @@ export const BenefitsData = [
     icon: "bi:tree",
     headText: "Help to Save enviroment",
     bodyText:
-      "Lorem ipsum door sit amet consectetur, adipisicing elit. Aspernatur abet culpa doloribus hic, consequuntur expedita quo deleniti labore",
+      "You can contribute hugely by planting just a plant and inspiring all the people to do the same. Share your activities, plans about social work at a place where it matters!",
   },
   {
     id: "2",
     icon: "akar-icons:money",
     headText: "Build your Precense",
     bodyText:
-      "Lorem ipsum door sit amet consectetur, adipisicing elit. Aspernatur abet culpa doloribus hic, consequuntur expedita quo deleniti labore",
+      "Share all your stories and work helping to create a good place. Make your social profile that matters the most than anything!",
   },
   {
     id: "3",
     icon: "akar-icons:people-multiple",
     headText: "Connect with people",
-    bodyText: "EcoSocial is community of ",
+    bodyText:
+      "Find the people with the same interests as you, connect with them, build and join NGOs, groups for social causes.",
   },
 ];

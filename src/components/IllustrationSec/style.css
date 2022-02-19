@@ -7,7 +7,16 @@
   height: 400px;
   width: 500px;
 }
-
+.illustration-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  width: 1420px;
+  height: 100%;
+  /* margin: 0 auto; */
+  padding-bottom: -20px;
+  background-color: white;
+}
 @keyframes handMove {
   0% {
     transform: translateY(-20px);

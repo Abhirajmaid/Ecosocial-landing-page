@@ -4,9 +4,11 @@ import "./style.css";
 export const Title = () => {
   return (
     <>
-      <h1 className="title">Post Green to Save Green!</h1>
+      <h1 className="title">Revolutionizing social causes!</h1>
       <p className="sub-title">
-        The social media which earth need. Let's Share our part
+        Social media for all Enviroment lovers and For those who want change.{" "}
+        <br />
+        Post Green to Save Green!
       </p>
     </>
   );

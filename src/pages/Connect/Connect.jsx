@@ -96,8 +96,9 @@ export const Connect = () => {
             </button>
             <p className="error">{error}</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-              rerum? Id atque reiciendis facilis esse,
+              we are building the platform which will help all social activists
+              and NGOs to build sustainable earth for future generations. Show
+              us your interest in this noble motive and connect us.
             </p>
           </form>
         </div>

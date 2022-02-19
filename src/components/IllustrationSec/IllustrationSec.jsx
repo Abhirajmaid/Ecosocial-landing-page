@@ -7,7 +7,7 @@ export const IllustrationSec = () => {
     "https://github.com/Abhirajmaid/Landing-Page/blob/master/public/Images/forest.png?raw=true";
   return (
     <>
-      <div className="partners-container ill-container">
+      <div className="illustration-container ill-container">
         <>
           <div className="heroIllustration">
             <Illustration url={URL} />

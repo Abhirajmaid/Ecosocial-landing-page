@@ -19,8 +19,11 @@ const AccordionSection = styled.div`
 const Container = styled.div`
   overflow-x: hidden;
   height: 320px;
-  max-width: 80vw;
+  max-width: 700px;
   margin-bottom: -40px;
+  @media (max-width: 750px) {
+    width: 80vw;
+  } ;
 `;
 
 const Wrap = styled.div`
@@ -29,7 +32,7 @@ const Wrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 700px;
   text-align: center;
   cursor: pointer;
   border-bottom: 1px solid #a3a3a3;
@@ -41,12 +44,15 @@ const Wrap = styled.div`
   span {
     margin-right: 1.5rem;
   }
+  @media (max-width: 750px) {
+    width: 80vw;
+  } ;
 `;
 
 const Dropdown = styled.div`
   background: #fffffa;
   color: black;
-  width: 100%;
+  width: 700px;
   min-height: 80px;
   display: flex;
   flex-direction: column;
@@ -55,8 +61,12 @@ const Dropdown = styled.div`
   border-bottom: 1px solid #a3a3a3;
 
   p {
+    width: 60%;
     font-size: clamp(10px, 4px + 3vw, 15px);
   }
+  @media (max-width: 750px) {
+    width: 80vw;
+  } ;
 `;
 const Head = styled.h2`
   margin: -150px 0 40px 0;

@@ -1,24 +1,26 @@
 export const FaqsData = [
   {
     id: "1",
-    question: "What do you call a dog magician?",
-    answer: "A labracadabrador.",
+    question: "How I you can join this platform?",
+    answer:
+      "This platform is for those who care for the betterment of this world by adding positive values and inspiring all to do the same",
   },
   {
     id: "2",
-    question: "What do you call a funny mountain?",
-    answer: "Hill-arious.",
+    question: "How to Contribute on the platform?",
+    answer:
+      "Contribute by adding your views, sharing about social drives, creating a strong activist profile..",
   },
   {
     id: "3",
-    question: "What did the astronaut say when he crashed into the moon?",
+    question: "How to join and connect?",
     answer:
-      "LorCreate and customize an online store Sell in multiple places, including web, mobile, social media, online marketplaces, brick-and-mortar locations, and pop-up shops Manage products, inventory, payments, and shipping Shopify is completely cloud-based and hosted, which means you don’t have to worry about upgrading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device grading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device grading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device",
+      "You can join us by showing your interest in this platform by adding your mail at top of this page and connecting us by sharing valuable words and contact by using connect button appearing at the top.",
   },
   {
     id: "4",
-    question: "What is Shopify and how does it work?",
+    question: "Does this costs money?",
     answer:
-      "LorCreate and customize an online store Sell in multiple places, including web, mobile, social media, online marketplaces, brick-and-mortar locations, and pop-up shops Manage products, inventory, payments, and shipping Shopify is completely cloud-based and hosted, which means you don’t have to worry about upgrading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device grading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device grading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device LorCreate and customize an online store Sell in multiple places, including web, mobile, social media, online marketplaces, brick-and-mortar locations, and pop-up shops Manage products, inventory, payments, and shipping Shopify is completely cloud-based and hosted, which means you don’t have to worry about upgrading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device grading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device grading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device",
+      "Joining us cost no money. You will be informed from time to time as the projection of the project goes on.",
   },
 ];

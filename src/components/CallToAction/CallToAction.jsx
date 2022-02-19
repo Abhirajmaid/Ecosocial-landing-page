@@ -67,7 +67,7 @@ export const CallToAction = () => {
           style={{ background: loader ? "#ccc" : "#ffcc1d" }}
           className="join-btn"
         >
-          SUBSCRIBE
+          JOIN US
         </button>
       </form>
       <p
@@ -80,9 +80,9 @@ export const CallToAction = () => {
         {error}
       </p>
       <p className="CTA-text">
-        *We are building a community which to make a change in society. If you
-        want to stay updated with whats going on, and want be a part of this
-        revolution. SUBSCRIBE RIGHT NOW!
+        *we are edifying the platform which will help all social activists and
+        NGOs to build sustainable earth for future generations. Show us your
+        interest in this noble motive by joining us.
       </p>
     </>
   );
