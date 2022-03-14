@@ -1,7 +1,7 @@
 export const FaqsData = [
   {
     id: "1",
-    question: "How I you can join this platform?",
+    question: "who can join this platform?",
     answer:
       "This platform is for those who care for the betterment of this world by adding positive values and inspiring all to do the same",
   },
